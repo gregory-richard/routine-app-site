@@ -1,0 +1,8 @@
+:root{--bg:#0A0A0B;--text:#FFFFFF;--sec:#A0A0A6;--line:#222226;--lime:#D7FF3A}
+@media (prefers-color-scheme: light){:root{--bg:#F4F4F1;--text:#0A0A0B;--sec:#5E5E64;--line:#DCDCD6;--lime:#4F6A00}}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.55 ui-rounded,"SF Pro Rounded",system-ui,sans-serif}
+main{max-width:680px;margin:0 auto;padding:64px 20px}
+h1{font-size:40px;font-weight:600;margin:24px 0 8px}h2{font-size:20px;margin:32px 0 8px}
+p,li{color:var(--sec)}a{color:var(--lime)}
+.mo{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:12px;letter-spacing:1.2px;text-transform:uppercase;color:var(--sec)}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
